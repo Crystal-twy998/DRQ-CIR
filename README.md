@@ -1,2 +1,2 @@
 # DRQ-CIR
-Coming Soon 🚀
+Our code and model weights are coming soon 🚀
