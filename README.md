@@ -49,7 +49,7 @@ Download the Fashion200K dataset following the instructions in the [official rep
 ```
 ├── Fashion200K
 │   ├── labels
-|   |   ├── cap.rc2.[train | val | test1].txt
+|   |   ├── [toptee | dress | shirt | dress | shirt].txt
 
 │   ├── women
 |   |   ├── [<category> | <caption> | <id>]*.jpeg
