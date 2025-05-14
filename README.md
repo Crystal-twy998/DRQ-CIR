@@ -39,8 +39,6 @@ Download the CIRR dataset following the instructions in the [official repository
 │   ├── test1
 |   |   ├── [test1-0-0-img0.png | test1-0-0-img1.png | ...]
 ```
-### Shoes
-We noticed that the images of the Shoes dataset are currently unavailable from the [original source](https://github.com/XiaoxiaoGuo/fashion-retrieval/tree/master/dataset), so we download it from Google Drive and will publish them later.
 ### Fashion200K
 Download the Fashion200K dataset following the instructions in the [official repository](https://github.com/xthan/fashion-200k). Download the generated test_queries.txt from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt). After downloading the dataset, ensure that the folder struture matches the following:
 ```
@@ -54,6 +52,8 @@ Download the Fashion200K dataset following the instructions in the [official rep
 │   ├── test_queries.txt
 ```
 and `[<catgory>]` includes `[dress | jacket | pants | skirt | top]`.
+### Shoes
+We noticed that the images of the Shoes dataset are currently unavailable from the [original source](https://github.com/XiaoxiaoGuo/fashion-retrieval/tree/master/dataset), so we download it from Google Drive and will publish them later.
 
 ## Training
 ```
