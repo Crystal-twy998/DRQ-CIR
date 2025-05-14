@@ -4,7 +4,8 @@ Our code and model weights are coming soon 🚀
 ## Data Preparation
 ### FashionIQ
 Download the FashionIQ dataset following the instructions in the [official repository](https://github.com/XiaoxiaoGuo/fashion-iq). After downloading the dataset, ensure that the folder structure matches the following:
-├── FASHIONIQ
+
+```├── FASHIONIQ
 │   ├── captions
 │   │   ├── cap.dress.[train | val | test].json
 │   │   ├── cap.toptee.[train | val | test].json
@@ -16,4 +17,4 @@ Download the FashionIQ dataset following the instructions in the [official repos
 │   │   ├── split.shirt.[train | val | test].json
 │
 │   ├── images
-│   │   ├── [B00006M009.jpg | B00006M00B.jpg | B00006M6IH.jpg | ...]
+│   │   ├── [B00006M009.jpg | B00006M00B.jpg | B00006M6IH.jpg | ...]```
