@@ -46,7 +46,7 @@ Download the Fashion200K dataset following the instructions in the [official rep
 ```
 ├── Fashion200K
 │   ├── labels
-|   |   ├── [<catgory>]_<catgory>_detect_all.txt
+|   |   ├── [<catgory>]_[train | test]_detect_all.txt
 
 │   ├── women
 |   |   ├── [<category> | <sub_category> | <id>]*.jpeg
