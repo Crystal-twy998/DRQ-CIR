@@ -1,6 +1,8 @@
 # Dual Retrieval Queries Fine-Tuning for Composed Image Retrieval (DRQ-CIR)
 Our code and model weights are coming soon 🚀
 
+## Environment
+
 ## Data Preparation
 ### FashionIQ
 Download the FashionIQ dataset following the instructions in the [official repository](https://github.com/XiaoxiaoGuo/fashion-iq). After downloading the dataset, ensure that the folder structure matches the following:
