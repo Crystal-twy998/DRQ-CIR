@@ -75,7 +75,7 @@ python src/train.py \
 ```
 python src/validate.py \
    --dataset {'FashionIQ' or 'CIRR' or 'Shoes' or 'Fashion200K'} \
-   --blip-model-name {'blip2_cir_dqu'} \
+   --blip-model-name 'blip2_cir_dqu' \
    --model-path {Path to the fine-tuned model} 
 ```
 
