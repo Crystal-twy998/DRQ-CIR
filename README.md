@@ -71,7 +71,7 @@ python src/train.py \
    --validation-frequency 1 
 ```
 
-## Evaluation
+## Validation
 ```
 python src/validate.py \
    --dataset {'FashionIQ' or 'CIRR' or 'Shoes' or 'Fashion200K'} \
