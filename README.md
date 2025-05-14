@@ -46,7 +46,13 @@ We noticed that the images of the Shoes dataset are currently unavailable from t
 ```
 ### Fashion200K
 Download the Fashion200K dataset following the instructions in the [official repository](https://github.com/xthan/fashion-200k). Download the generated test_queries.txt from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt). After downloading the dataset, ensure that the folder struture matches the following:
-
-
 ```
+├── Fashion200K
+│   ├── labels
+|   |   ├── cap.rc2.[train | val | test1].txt
+
+│   ├── women
+|   |   ├── [<category> | <caption> | <id>]*.jpeg
+
+│   ├── test_queries.txt
 ```
