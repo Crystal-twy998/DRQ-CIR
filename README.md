@@ -40,10 +40,7 @@ Download the CIRR dataset following the instructions in the [official repository
 |   |   ├── [test1-0-0-img0.png | test1-0-0-img1.png | ...]
 ```
 ### Shoes
-We noticed that the images of the Shoes dataset are currently unavailable from the [original source](https://github.com/XiaoxiaoGuo/fashion-retrieval/tree/master/dataset), so we download it from [Google Drive](https://drive.google.com/file/d/18DEWXvuyp2vXHv4tAw6fcD2ehEtrvyIL/view?usp=sharing). Unzip the file and make the images by their names inside the
-```
-./data/Shoes/womens_*
-```
+We noticed that the images of the Shoes dataset are currently unavailable from the [original source](https://github.com/XiaoxiaoGuo/fashion-retrieval/tree/master/dataset), so we download it from Google Drive and will publish them later.
 ### Fashion200K
 Download the Fashion200K dataset following the instructions in the [official repository](https://github.com/xthan/fashion-200k). Download the generated test_queries.txt from [here](https://storage.googleapis.com/image_retrieval_css/test_queries.txt). After downloading the dataset, ensure that the folder struture matches the following:
 ```
@@ -57,3 +54,28 @@ Download the Fashion200K dataset following the instructions in the [official rep
 │   ├── test_queries.txt
 ```
 and `[<catgory>]` includes `[dress | jacket | pants | skirt | top]`.
+
+## Training
+```
+python src/train.py \
+   --dataset {'FashionIQ' or 'CIRR' or 'Shoes' or 'Fashion200K'} \
+   --blip-model-name 'blip2_cir_dqu' \
+   --num-epochs {'10' for FashionIQ, '15' for other datasets} \
+   --num-workers 4 \
+   --learning-rate {'1e-5' for CIRR, '2e-5' for FashionIQ and Fashion200K, '3e-5' for Shoes} \
+   --batch-size {'128' for FashionIQ, '96' for other datasets} \
+   --transform targetpad \
+   --target-ratio 1.25  \
+   --save-training \
+   --save-best \
+   --validation-frequency 1 
+```
+
+## Evaluation
+```
+python src/validate.py \
+   --dataset {'FashionIQ' or 'CIRR' or 'Shoes' or 'Fashion200K'} \
+   --blip-model-name {trained model name} \
+   --model-path {for path} 
+```
+
