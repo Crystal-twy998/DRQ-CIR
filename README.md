@@ -79,3 +79,5 @@ python src/validate.py \
    --model-path {Path to the fine-tuned model} 
 ```
 
+## Checkpoints
+Google Drive: The model weights will be released soon.
