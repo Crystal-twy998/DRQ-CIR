@@ -82,4 +82,4 @@ python src/validate.py \
 ```
 
 ## Checkpoints
-Google Drive: [DRQ-FT-fiq.pt](https://drive.google.com/file/d/14Aui06bgL-nEqU0QL2A8EDBQvWwuMEvJ/view?usp=drive_link), [DRQ-FT-cirr.pt](https://drive.google.com/file/d/1WWLsQ57_-fnBA41dSD9p_Bok1lfWni-D/view?usp=drive_link), [DRQ-FT-shoes.pt](https://drive.google.com/file/d/1Pv8mD7BEdJnJw4rUiRSXWMjbzN2YhtXP/view?usp=drive_link), [DRQ-FT-f200k.pt](https://drive.google.com/file/d/1jdfJdYnyzGcXuCUgYx5L4DrlobMFg_QJ/view?usp=drive_link).
+Google Drive: will release soon!
